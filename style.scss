@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 500px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(76, 76, 255);
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+}
+
+.weather {
+    &__header {
+        display: flex;
+    }
+    &__main {
+        flex: 1 1 auto;
+        padding: 15px;
+    }
+    &__city {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    &__status {}
+    &__icon {
+        text-align: right;
+    }
+    &__icon img {
+        width: 150px;
+    }
+    &__temp {
+        font-size: 40px;
+        padding: 15px;
+    }
+    &__feels-like {
+        margin: 15px;
+    }
+    &__loading img {
+        max-width: 450px;
+        margin: 15px;
+        margin-left: 150px;
+    }
+}
